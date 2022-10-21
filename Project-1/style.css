@@ -1,0 +1,105 @@
+/* CSS REST */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+img{
+ display: block;
+
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(asset/img/pexels-rakicevic-nenad-769525.jpg);
+    background-color: coral;
+    background-position: center;
+    background-size: cover; 
+    overflow: hidden;
+    position: relative;
+}
+
+h2{
+    text-align: center;
+    letter-spacing: .4rem;
+    font-size: 3.4rem;
+    padding-bottom: 20px;
+    text-shadow: 1px 1px 1px  white;
+}  
+.center{
+    display: flex;
+    width: 100%;
+    font-size: 1.6rem;
+    justify-content: space-between;
+    text-transform: capitalize  ;
+    filter: brightness(1);
+}
+.center .marg{
+    margin: 5px;
+    position: relative;
+    /* filter: drop-shadow(16px 13px 12px blue);
+    filter: hue-rotate(380deg);
+    /* filter: grayscale(90%); */
+    /* filter: contrast(150%); */
+    position: relative;
+    border: 3px solid hsla(227, 86%, 34%, 0.25);
+    background: linear-gradient(0deg ,#000,rgba(44,43,42));
+}
+.marg::before{
+content: "";
+position: absolute;
+left :-2px;
+width: 105%;
+height: 120%;
+background: rgba(6, 13, 151, 0.578);
+filter: blur(12px);
+z-index: -1;
+    
+}
+.center span{
+    width: 100px;
+    height: 80px;
+    color: white;
+    background-color: hsla(248, 53%, 58%, 0.395);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+    text-shadow: 1px 2px 3px #000;
+    /* border: 3px solid hsla(227, 86%, 34%, 0.25); */
+    
+    /* padding-bottom: 2rem; */
+}
+.center .text{
+    font-size: 1.2rem;
+    height: 30px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    background-color:hsla(240, 100%, 27%, 0.821);
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%); */
+ }
+ .center #ampm{
+    max-width: 50px;
+    max-height: 30px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 2rem;
+    background-color: hsla(229, 90%, 30%, 0.611);
+    box-shadow: 2px 4px 15px hsla(229, 79%, 32%, 0.83);
+    /* border: 3px solid hsla(251, 90%, 28%, 0.455);
+    */
+    background: linear-gradient(0deg ,#000,rgba(44,43,42));
+    
+ }
+
+ 
